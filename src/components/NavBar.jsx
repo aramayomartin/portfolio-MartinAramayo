@@ -4,7 +4,7 @@ import SwitchTheme from './SwitchTheme';
 import style from '../style.module.css';
 export default function NavBar() {
     return (
-        <Container className={`p-3 mt-1 opacity-60 ${style.bannerTop}`}>
+        <div className={`p-3 mx-5 mt-1 opacity-60 ${style.bannerTop}`}>
             <Nav
                 fill
                 pills
@@ -33,6 +33,6 @@ export default function NavBar() {
                     <SwitchTheme />
                 </NavItem>
             </Nav>
-        </Container>
+        </div>
     )
 }
