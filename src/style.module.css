@@ -144,7 +144,7 @@
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 400px) {
   .App {
     text-align: center;
   }
@@ -171,7 +171,7 @@
     border-radius: 1rem;
     font-weight: bold;
     padding-top:0;
-
+    font-size:0.92rem;
     
   }
   .navItem{
