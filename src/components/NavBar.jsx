@@ -14,7 +14,7 @@ export default function NavBar() {
                         Acerca de mi
                     </NavLink>
                 </NavItem>
-                <NavItem>
+                <NavItem className={style.navItem}>
                     <NavLink href="#tech-stack-section" className='text-white'>
                         Tech Stack
                     </NavLink>
@@ -24,7 +24,7 @@ export default function NavBar() {
                         Proyectos
                     </NavLink>
                 </NavItem>
-                <NavItem>
+                <NavItem className={style.navItem}>
                     <NavLink href="#contact-section" className='text-white'>
                         Contacto
                     </NavLink>

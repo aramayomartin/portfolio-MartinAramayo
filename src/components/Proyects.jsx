@@ -40,29 +40,30 @@ export default function Proyects() {
                     <h6><BsCalendarDateFill /> 10/2021 - 12/2021</h6>
                     <div className={style.carrouselProy}>
                         <UncontrolledCarousel
+                            captionText={undefined}
                             items={[
                                 {
-
+                                    caption: 'Landing',
                                     key: 1,
                                     src: vglanding
                                 },
                                 {
-
+                                    caption: 'Home',
                                     key: 2,
                                     src: vghome
                                 },
                                 {
-
+                                    caption: 'Form',
                                     key: 3,
                                     src: vgform
                                 },
                                 {
-
+                                    caption: 'Detail',
                                     key: 4,
                                     src: vgdetail
                                 },
                                 {
-
+                                    caption: 'Random',
                                     key: 5,
                                     src: vgrandom
                                 }
@@ -84,27 +85,27 @@ export default function Proyects() {
                         <UncontrolledCarousel
                             items={[
                                 {
-
+                                    caption: 'Landing',
                                     key: 1,
                                     src: shlanding
                                 },
                                 {
-
+                                    caption: 'Home',
                                     key: 2,
                                     src: shhome
                                 },
                                 {
-
+                                    caption: 'Home Team',
                                     key: 3,
                                     src: shhometeam
                                 },
                                 {
-
+                                    caption: 'Team',
                                     key: 4,
                                     src: shteam
                                 },
                                 {
-
+                                    caption: 'Detail',
                                     key: 5,
                                     src: shdetail
                                 }
@@ -127,17 +128,17 @@ export default function Proyects() {
                         <UncontrolledCarousel
                             items={[
                                 {
-
+                                    caption: 'Home',
                                     key: 1,
                                     src: wahome
                                 },
                                 {
-
+                                    caption: 'Detail',
                                     key: 2,
                                     src: wadetail
                                 },
                                 {
-
+                                    caption: 'About me',
                                     key: 3,
                                     src: waaboutme
                                 }
@@ -160,22 +161,22 @@ export default function Proyects() {
                         <UncontrolledCarousel
                             items={[
                                 {
-
+                                    caption: 'Home',
                                     key: 1,
                                     src: clhome
                                 },
                                 {
-
+                                    caption: 'Life time',
                                     key: 2,
                                     src: cllifetime
                                 },
                                 {
-
+                                    caption: 'Next birthday',
                                     key: 3,
                                     src: clnextbirthday
                                 },
                                 {
-
+                                    caption: 'About me',
                                     key: 4,
                                     src: claboutme
                                 }

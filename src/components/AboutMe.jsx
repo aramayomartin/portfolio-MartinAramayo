@@ -11,7 +11,9 @@ export default function AboutMe() {
             <div className={style.aboutMeElements}>
                 <img src={profile} alt="profile" className={style.profileImage} />
                 <h3 className='animate__fadeInLeft'>
-                    Martín Aramayo - Ingeniero Nuclear || Full Stack Developer
+                    Martín Aramayo 
+                    <br/>
+                    Ing. Nuclear || Full Stack Dev.
                 </h3>
             </div>
             <p>
