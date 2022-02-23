@@ -269,6 +269,9 @@
     padding-left: 2rem;
     font-size:2rem;
   }
+  .itemContactFirst{
+    padding-left:0;
+  }
   
   .itemContactLinkDark{
     color:white;
