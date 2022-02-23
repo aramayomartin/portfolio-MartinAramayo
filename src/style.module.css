@@ -144,7 +144,7 @@
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 479px) {
   .App {
     text-align: center;
   }
@@ -289,4 +289,11 @@
     background-color: white;
     color: #282c34;
   }
+}
+
+.buttonsProyect{
+  display:flex;
+  flex-direction:row;
+  
+  justify-content: space-around;
 }

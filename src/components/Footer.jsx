@@ -14,7 +14,7 @@ export default function Footer() {
                 <li className={`${style.itemContact} ${style.itemContactFirst}`}><a className={theme?style.itemContactLinkDark:style.itemContactLinkLight} href="https://www.linkedin.com/in/aramayomartin/"><AiFillLinkedin /></a> </li>
                 <li className={style.itemContact}><a className={theme?style.itemContactLinkDark:style.itemContactLinkLight} href='https://github.com/aramayomartin'><BsGithub /></a></li>
                 <li className={style.itemContact}>
-                    <a href='../document/MartinAramayoCV.pdf' download='MartinAramayoCV.pdf'>
+                    <a href='https://drive.google.com/file/d/1Duglp7RCVxVXth4ToqHOGXyJ7XYCw8Ur/view?usp=sharing'>
                         <Button color='info'>
                             <FiDownloadCloud /> CV
                         </Button>

@@ -11,9 +11,8 @@ import {
 } from 'react-icons/si';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { BsBootstrapFill } from 'react-icons/bs';
-import { FaReact, FaChrome } from 'react-icons/fa';
+import { FaReact, FaChrome,FaElementor } from 'react-icons/fa';
 import { MdFormatAlignLeft } from 'react-icons/md';
-import { GrHostMaintenance } from 'react-icons/gr';
 
 
 export default function TechStack() {
@@ -77,7 +76,7 @@ export default function TechStack() {
                             <SiLodash /> - Lodash
                         </li>
                         <li>
-                            <GrHostMaintenance /> - Librerias basicas de Python
+                            <FaElementor /> - Librerias basicas de Python
                         </li>
                     </ul>
                 </li>
