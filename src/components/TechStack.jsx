@@ -7,13 +7,12 @@ import {
 import {
     SiJavascript, SiTypescript, SiLodash,
     SiRedux, SiExpress, SiPostgresql,
-    SiSequelize, SiPostman
+    SiSequelize, SiPostman,SiJsonwebtokens
 } from 'react-icons/si';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { BsBootstrapFill } from 'react-icons/bs';
 import { FaReact, FaChrome,FaElementor } from 'react-icons/fa';
 import { MdFormatAlignLeft } from 'react-icons/md';
-
 
 export default function TechStack() {
     return (
@@ -53,6 +52,9 @@ export default function TechStack() {
                         </li>
                         <li>
                             <IoLogoNodejs /> - NodeJs
+                        </li>
+                        <li>
+                            <SiJsonwebtokens/> - Json Web Token
                         </li>
                     </ul>
                 </li>

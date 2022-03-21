@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, NavItem, NavLink } from 'reactstrap';
+import {Nav, NavItem, NavLink } from 'reactstrap';
 import SwitchTheme from './SwitchTheme';
 import style from '../style.module.css';
 export default function NavBar() {
@@ -9,7 +9,7 @@ export default function NavBar() {
                 fill
                 pills
             >
-                <NavItem>
+                <NavItem className={style.navItem}>
                     <NavLink href="#about-me-section" className='text-white'>
                         Acerca de mi
                     </NavLink>
