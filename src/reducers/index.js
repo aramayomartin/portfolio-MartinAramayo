@@ -1,15 +1,21 @@
-const initialState ={
-    currentTheme : true,
+const initialState = {
+  currentTheme: true,
+  englishLanguage: false,
 };
 
-export default function rootReducer(state = initialState,action){
-    switch(action.type){
-        case 'CHANGE-THEME':
-            return{
-                ...state,
-                currentTheme : action.payload
-            }
-        default:
-            return state;
-    }
+export default function rootReducer(state = initialState, { payload, type }) {
+  switch (type) {
+    case "CHANGE-THEME":
+      return {
+        ...state,
+        currentTheme: payload,
+      };
+    case "CHANGE-LANGUAGE":
+      return {
+        ...state,
+        englishLanguage: payload,
+      };
+    default:
+      return state;
+  }
 }
